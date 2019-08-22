@@ -1,6 +1,6 @@
 [user]
 	email = bj.yueyang@gmail.com
-	name = YueYang
+	name = Alan Yue
 [filter "media"]
 	clean = git-media-clean %f
 	smudge = git-media-smudge %f
@@ -11,7 +11,7 @@
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [core]
-	excludesfile = /Users/yueyang/.gitignore_global
+	excludesfile = /Users/alanyue/.gitignore_global
 [push]
 	default = simple
 [filter "lfs"]
@@ -19,4 +19,4 @@
 	required = true
 	clean = git-lfs clean %f
 [commit]
-	template = /Users/yueyang/.stCommitMsg
+	template = /Users/alanyue/.stCommitMsg

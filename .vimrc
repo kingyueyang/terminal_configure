@@ -1,4 +1,3 @@
-set nu
 set runtimepath+=~/.vim_runtime
 
 source ~/.vim_runtime/vimrcs/basic.vim
