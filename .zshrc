@@ -85,17 +85,13 @@ alias mv='mv -iv'
 alias rm='rm -iv'
 alias ls='ls -CFG'
 alias grep='grep --color=auto'
-alias ee='emacsclient -t'
-alias e='emacs -nw'
 alias free='free -m'
 
 alias ll='\ls -ahlF'
 alias lt='\ls -ahlrt'
 alias l='\ls -CF'
-alias lc='\ls -CF *.c'
 alias cd.='cd ..'
 alias cd..='cd ../..'
-alias cd...='cd ../../..'
 
 alias mktag='ctags -R .'
 alias rmtag='rm -f ./tags'
@@ -285,29 +281,18 @@ uncmp () {
 #auto into path
 setopt autocd
 
-export PERL_LOCAL_LIB_ROOT="$HOME/perl5";
-export PERL_MB_OPT="--install_base $HOME/perl5";
-export PERL_MM_OPT="INSTALL_BASE=$HOME/perl5";
-export PERL5LIB="$HOME/perl5/lib/perl5/x86_64-linux-thread-multi:$HOME/perl5/lib/perl5";
-export PATH="$HOME/perl5/bin:$PATH";
 #export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
-
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 export PATH=/usr/local/bin:$HOME/bin:$PATH
+export PATH="/usr/local/sbin:$PATH"
 
 #source /usr/local/bin/virtualenvwrapper.sh
 
 # Go-lang
-export GOPATH=$HOME/Workspace/go
+export GOPATH=$HOME/go
 export GOROOT=/usr/local/opt/go/libexec
-export PATH=$PATH:$GOPATH/bin
-
-# old python@2
-export PATH="/usr/local/opt/python@2/bin:$PATH"
-
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/$USER/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/$USER/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+export PATH=$PATH:$GOROOT/bin
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/$USER/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/$USER/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
