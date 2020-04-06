@@ -299,3 +299,6 @@ if [ -f '/Users/$USER/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then sou
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export PATH="/usr/local/opt/gettext/bin:$PATH"
 export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
+
+export NVM_DIR="/Users/alanyue/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
