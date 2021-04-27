@@ -302,3 +302,4 @@ export PATH="/usr/local/opt/openjdk/bin:$PATH"
 
 export NVM_DIR="/Users/alanyue/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+export PATH="/usr/local/opt/tcl-tk/bin:$PATH"
