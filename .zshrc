@@ -281,7 +281,6 @@ uncmp () {
 #auto into path
 setopt autocd
 
-#export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 export PATH=/usr/local/bin:$HOME/bin:$PATH
