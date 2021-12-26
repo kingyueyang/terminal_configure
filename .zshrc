@@ -262,7 +262,7 @@ uncmp () {
       *.tar.bz2)   tar vxjf $1        ;;
       *.tar.gz)    tar vxzf $1     ;;
       *.bz2)       bunzip2 $1       ;;
-      *.rar)       unrar x $1     ;;
+      *.rar)       unar $1     ;;
       *.gz)        gunzip $1     ;;
       *.tar)       tar vxf $1        ;;
       *.tbz2)      tar xjf $1      ;;
