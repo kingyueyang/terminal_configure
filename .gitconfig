@@ -20,3 +20,6 @@
 	clean = git-lfs clean %f
 [commit]
 	template = /Users/alanyue/.stCommitMsg
+[http]
+	sslBackend = openssl
+	proxy = socks5://127.0.0.1:7890
