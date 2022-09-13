@@ -289,7 +289,7 @@ export PATH="/usr/local/sbin:$PATH"
 #source /usr/local/bin/virtualenvwrapper.sh
 
 # Go-lang
-export GOPATH=$HOME/go
+export GOPATH=$HOME/Workspaces/Golang
 export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOROOT/bin
 
