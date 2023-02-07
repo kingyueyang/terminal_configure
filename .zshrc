@@ -290,7 +290,7 @@ export PATH="/usr/local/sbin:$PATH"
 
 # Go-lang
 export GOPATH=$HOME/Workspaces/Golang
-export GOROOT=/usr/local/opt/go/libexec
+export GOROOT=/opt/homebrew/Cellar/go/1.19.5
 export PATH=$PATH:$GOROOT/bin
 
 # The next line enables shell command completion for gcloud.
