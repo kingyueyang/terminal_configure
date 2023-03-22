@@ -282,7 +282,6 @@ uncmp () {
 setopt autocd
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
 export PATH=/usr/local/bin:$HOME/bin:$PATH
 export PATH="/usr/local/sbin:$PATH"
 
@@ -293,13 +292,6 @@ export GOPATH=$HOME/Workspaces/Golang
 export GOROOT=/opt/homebrew/Cellar/go/1.19.5
 export PATH=$PATH:$GOROOT/bin
 
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/$USER/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/$USER/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
-export PATH="/usr/local/opt/openssl/bin:$PATH"
-export PATH="/usr/local/opt/gettext/bin:$PATH"
-export PATH="/usr/local/opt/openjdk/bin:$PATH"
-
 export NVM_DIR="/Users/alanyue/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-export PATH="/usr/local/opt/tcl-tk/bin:$PATH"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
