@@ -289,7 +289,7 @@ export PATH="/usr/local/sbin:$PATH"
 
 # Go-lang
 export GOPATH=$HOME/Workspaces/Golang
-export GOROOT=/opt/homebrew/Cellar/go/1.19.5
+export GOROOT=/opt/homebrew/Cellar/go/1.20.2/bin
 export PATH=$PATH:$GOROOT/bin
 
 export NVM_DIR="/Users/alanyue/.nvm"
