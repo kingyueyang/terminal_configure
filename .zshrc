@@ -97,8 +97,7 @@ alias mktag='ctags -R .'
 alias rmtag='rm -f ./tags'
 
 #alias of path
-hash -d W="$HOME/Workspace"
-hash -d w="$HOME/Documents/workspace"
+hash -d W="$HOME/Workspaces"
 
 #used zsh setting in Emacs terminal
 if [[ "$TERM" == "dumb" ]]; then
