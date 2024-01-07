@@ -98,6 +98,7 @@ alias rmtag='rm -f ./tags'
 
 #alias of path
 hash -d W="$HOME/Documents/Workspaces"
+hash -d D="/Users/alanyue/Library/Mobile Documents/com~apple~CloudDocs/Downloads"
 
 #used zsh setting in Emacs terminal
 if [[ "$TERM" == "dumb" ]]; then
