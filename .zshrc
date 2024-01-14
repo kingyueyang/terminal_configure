@@ -288,8 +288,8 @@ export PATH="/usr/local/sbin:$PATH"
 #source /usr/local/bin/virtualenvwrapper.sh
 
 # Go-lang
-export GOPATH=$HOME/Workspaces/Golang
-export GOROOT=/opt/homebrew/Cellar/go/1.21.4/bin
+export GOPATH=$HOME/Documents/Workspaces/Golang
+export GOROOT=/opt/homebrew/Cellar/go/1.21.5/bin
 export PATH=$PATH:$GOROOT/bin
 
 export NVM_DIR="/Users/alanyue/.nvm"
