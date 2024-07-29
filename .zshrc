@@ -270,7 +270,7 @@ uncmp () {
       *.zip)       unzip $1     ;;
       *.Z)         uncompress $1  ;;
       *.tar.xz)    xz -kvd $1        ;;
-      *.7z)        7za x $1    ;;
+      *.7z)        7zz x $1    ;;
       *)           echo "'$1' cannot be extracted via extract()" ;;
     esac
   else
